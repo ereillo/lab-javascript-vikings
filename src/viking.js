@@ -28,11 +28,12 @@ class Viking extends Soldier {
         {
             return `${this.name} has recieved ${damage} points`
         }
-            else {
-                return `${this.name} has died in act of combat`;
-                 }
+        else {
+            return `${this.name} has died in act of combat`;
+             }
     }
-    batlteCry() {
+
+    battlteCry() {
         return "Odin Owns You All!";
     }
 }
